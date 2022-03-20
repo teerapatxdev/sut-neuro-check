@@ -1,0 +1,29 @@
+.hr-title {
+  background-color: white;
+  height: 4px;
+  width: 70px;
+  margin-top: 28px;
+  margin-bottom: 5px;
+}
+
+.card-form {
+  padding: 25px 15px 10px 15px;
+  border-radius: 5px;
+  background-color: #c8d4dc;
+}
+
+.h-layout {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.button-center {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0px 15px 0px;
+}
+
+.btn {
+  width: 100%;
+}

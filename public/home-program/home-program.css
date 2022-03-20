@@ -1,0 +1,27 @@
+.hr-title {
+  background-color: white;
+  height: 4px;
+  width: 70px;
+  margin-top: 28px;
+  margin-bottom: 5px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+}
+
+.page-center {
+  margin-top: 80px;
+}
+
+.button-img {
+  width: 160px;
+  margin: 10px;
+}
+
+.video-center {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,116 @@
+.hr-title {
+  background-color: white;
+  height: 4px;
+  width: 70px;
+  margin-top: 28px;
+  margin-bottom: 5px;
+}
+
+.hr-user {
+  background-color: #124276;
+  height: 2px;
+  width: 100%;
+  margin-top: 28px;
+  margin-bottom: 8px;
+}
+
+.hr-center {
+  display: flex;
+  justify-content: center;
+  /* margin-top: 5px; */
+  margin-bottom: 10px;
+}
+
+.card-result {
+  padding: 10px 25px 10px 25px;
+  border-radius: 5px;
+  background-color: #c8d4dc;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.icon-result {
+  width: 100px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.icon-result-good {
+  width: 100px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.show-img {
+  display: flex;
+  justify-content: center;
+}
+
+.result-header {
+  text-align: center;
+  margin-bottom: -10px;
+  font-size: 19px;
+  font-weight: bold;
+  color: #124276;
+}
+
+.result-header-good {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: -10px;
+  font-size: 19px;
+  font-weight: bold;
+  color: #124276;
+}
+
+.result-note {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: -10px;
+  font-size: 16px;
+}
+
+.note-footer {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: -10px;
+  font-size: 16px;
+}
+
+.content-center {
+  width: 100%;
+}
+
+.content-user {
+  color: #124276;
+}
+
+.d-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  /* text-align: center; */
+}
+
+.p-col-1 {
+  flex: 1;
+}
+
+.p-col-2 {
+  flex: 2;
+}
+
+.p-col-2 > span {
+  margin-left: 10px;
+}
+
+.data-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.btn {
+  width: 100%;
+  margin: 20px 0px 10px 0px;
+}

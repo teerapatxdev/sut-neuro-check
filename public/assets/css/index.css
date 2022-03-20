@@ -1,0 +1,169 @@
+@font-face {
+  font-family: 'Kanit-Regular';
+  src: url('../fonts/Kanit-Regular.ttf') format('truetype');
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: 'Kanit-Regular';
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+.bg {
+  background-color: #124276;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.content,
+.container,
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  padding: 1rem;
+}
+
+.content {
+  width: 100%;
+}
+
+.content-body {
+  padding: 5px 30px 0px 30px;
+  font-size: 16px;
+  color: black;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.main {
+  min-height: 100vh;
+}
+
+.w-100 {
+  width: 100% !important;
+}
+
+span.row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 35px;
+}
+
+.page-header {
+  font-size: 20px;
+  margin-top: 5px;
+  color: white;
+}
+
+/* Card */
+.card-heaven {
+  width: 100%;
+  min-height: 60px;
+  background-color: #634ae2;
+  border-radius: 6px;
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.16);
+  margin-bottom: 15px;
+}
+
+.card-content {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.set-align {
+  align-self: center;
+}
+
+.card-content > span {
+  display: inline-grid;
+}
+
+/* Nav */
+.nav {
+  height: 30px;
+  width: 100%;
+  background-color: #ffffff00;
+  position: relative;
+}
+
+.nav-line {
+  width: 70px;
+  position: absolute;
+  margin-top: 25px;
+}
+
+.nav-line > hr {
+  border: 2px solid #634ae2;
+  background-color: #634ae2;
+}
+
+.nav > .nav-header {
+  display: inline;
+  /* margin-left: 20px; */
+}
+
+.nav > .nav-header > hr {
+  border: 1px solid #634ae2;
+}
+
+.empty-data {
+  display: none;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.empty-data > p {
+  font-size: 24px;
+  color: #b4b4b4;
+}
+
+.button-outline {
+  background-color: Transparent; /* Green */
+  border: 1px solid black;
+  color: black;
+  padding: 2px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 100px;
+}
+
+.button-menu {
+  background-color: Transparent;
+  color: black;
+  border: 1px solid black;
+}
+
+.button-circle {
+  margin-right: 5px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: black;
+  padding: 10px;
+  cursor: pointer;
+  min-width: 42px;
+  max-width: 42px;
+  min-height: 42px;
+  max-height: 42px;
+}

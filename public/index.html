@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./liff-start.css" />
+    <link rel="stylesheet" href="./assets/css/index.css" />
+    <link rel="stylesheet" href="./assets/css/loading.css" />
+    <script src="./liff-starter.js"></script>
+    <script src="./assets/js/request.js"></script>
+    <!-- liff sdk -->
+    <script
+      charset="utf-8"
+      src="https://static.line-scdn.net/liff/edge/2/sdk.js"
+    ></script>
+    <title>App :: SUT Neuro Check</title>
+  </head>
+  <body class="bg">
+    <div class="main bg-img">
+      <div class="container">
+        <section class="header flex-center">
+          <div class="logo">
+            <img src="./assets/images/app-logo.png" alt="The Heaven Logo" />
+          </div>
+        </section>
+        <section id="loading">
+          <div class="loading">
+            <div class="lds-ellipsis">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+            <span style="font-size: 20px; color: white">loading...</span>
+          </div>
+        </section>
+        <section
+          id="liffAppErrorContent"
+          class="liffAppErrorContent shadow hidden"
+        ></section>
+        <section id="liffAppContent" class="liffAppContent">
+          <button
+            id="liffLoginButton"
+            class="btn hidden"
+            onclick="Handlers.login()"
+          >
+            Login
+          </button>
+          <button
+            id="liffLogoutButton"
+            class="btn hidden"
+            onclick="Handlers.logout()"
+          >
+            Logout
+          </button>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
